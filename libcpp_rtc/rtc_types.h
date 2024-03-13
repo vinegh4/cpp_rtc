@@ -14,5 +14,10 @@ rtc_tuple tuples_sub(rtc_tuple a, rtc_tuple b);
 rtc_tuple tuple_negate(rtc_tuple a);
 rtc_tuple tuple_mult(rtc_tuple a, float b);
 rtc_tuple tuple_div(rtc_tuple a, float b);
+float tuple_mag(rtc_tuple a);
+rtc_tuple tuple_norm(rtc_tuple a);
+float tuples_dot(rtc_tuple a, rtc_tuple b);
+
+rtc_tuple vectors_cross(rtc_tuple a, rtc_tuple b);
 
 bool float_equal(float a, float b);
